@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+cronSchedule = "0 8 * * *"
+startCommand = "python morning_brief.py"
